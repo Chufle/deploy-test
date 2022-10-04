@@ -17,4 +17,4 @@ jobs:
       - name: deploy website
         run: |
           echo "start upload to s3"
-          aws s3 cp index.html s3://nfish-des-friday-11/ --acl public-read
+          aws s3 cp index.html s3://nfish-des-100401/ --acl public-read
